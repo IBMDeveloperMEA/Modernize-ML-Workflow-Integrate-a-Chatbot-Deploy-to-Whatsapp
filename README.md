@@ -1,4 +1,4 @@
-# Modernize your Machine Learning Workflow with Low Code Tools &amp; MQuickly Integrate a Machine Learning Model in your Chatbot &amp; Deploy to Whatsapp
+# Modernize your Machine Learning Workflow with Low Code Tools &amp; Quickly Integrate a Machine Learning Model in your Chatbot &amp; Deploy to Whatsapp
 
 ## Description
 
