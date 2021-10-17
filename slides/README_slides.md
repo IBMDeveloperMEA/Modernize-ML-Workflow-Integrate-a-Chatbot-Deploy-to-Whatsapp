@@ -14,200 +14,240 @@ jupyter:
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide1.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/1.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide2.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/2.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide3.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/3.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide4.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/4.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide5.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/5.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide6.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/6.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide7.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/7.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide8.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/8.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide9.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/9.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide10.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/10.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide11.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/11.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide12.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/12.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide13.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/13.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide14.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/14.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide15.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/15.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide16.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/16.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide17.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/17.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide18.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/18.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide19.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/19.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide20.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/20.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide21.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/21.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide22.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/22.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide23.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/23.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide24.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/24.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide25.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/25.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide26.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/26.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide27.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/27.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide28.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/28.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide29.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/29.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide30.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/30.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide31.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/31.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide32.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/32.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide33.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/33.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide34.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/34.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide35.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/35.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide36.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/36.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide37.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/37.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide38.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/38.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide39.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/39.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide40.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/40.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide41.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/41.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide42.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/42.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide43.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/43.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide44.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/44.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide45.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/45.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide46.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/46.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide47.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/47.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide48.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/48.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide49.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/49.png?raw=true)
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-![center](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/slide_images/Slide50.jpeg?raw=true)
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/50.png?raw=true)
+
++++ {"slideshow": {"slide_type": "slide"}}
+
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/51.png?raw=true)
+
++++ {"slideshow": {"slide_type": "slide"}}
+
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/52.png?raw=true)
+
++++ {"slideshow": {"slide_type": "slide"}}
+
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/53.png?raw=true)
+
++++ {"slideshow": {"slide_type": "slide"}}
+
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/54.png?raw=true)
+
++++ {"slideshow": {"slide_type": "slide"}}
+
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/55.png?raw=true)
+
++++ {"slideshow": {"slide_type": "slide"}}
+
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/56.png?raw=true)
+
++++ {"slideshow": {"slide_type": "slide"}}
+
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/57.png?raw=true)
+
++++ {"slideshow": {"slide_type": "slide"}}
+
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/58.png?raw=true)
+
++++ {"slideshow": {"slide_type": "slide"}}
+
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/59.png?raw=true)
+
++++ {"slideshow": {"slide_type": "slide"}}
+
+![center](https://github.com/IBMDeveloperMEA/DevFest2021/blob/main/images/slide_images/60.png?raw=true)
