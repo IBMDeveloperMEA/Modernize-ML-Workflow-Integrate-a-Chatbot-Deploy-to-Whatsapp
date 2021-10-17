@@ -1,4 +1,4 @@
-# Unlock the Power of Machine Learning in Production for All Skillsets in a Hybrid &amp; Multi-Cloud World
+# Modernize your Machine Learning Workflow with Low Code Tools &amp; MQuickly Integrate a Machine Learning Model in your Chatbot &amp; Deploy to Whatsapp
 
 ## Description
 
@@ -6,15 +6,15 @@ Within a bank’s loan department, a customer’s application undergoes a lot of
 
 Now a days businesses also use chatbots to increase productivity and provide a better customer experience. This demo aims to automate the banking experience for customers regarding loan applications using Watson Studio machine learning, Cloud function, and then extend the Watson Assistant chatbot’s capabilities by connecting it to WhatsApp using Twilio. We will be using Twilio’s sandbox to show how this integration works.
 
-## Masterclass Resources
+## Workshop Resources
 
-- Login/Sign Up for IBM Cloud: https://ibm.biz/artelligence2021
+- Login/Sign Up for IBM Cloud: https://ibm.biz/devfest2021
   
-- Hands-On Guide: https://ibm.biz/artelligence-handson
+- Hands-On Guide: http://ibm.biz/devfest2021-handson
 
-- Slides: https://ibm.biz/artelligence-slides
+- Slides: https://ibm.biz/devfest2021-slides
 
-- Workshop Replay: https://artelligenceforum.com 
+- Workshop Replay: https://www.crowdcast.io/e/developer-festival/
 
 ## Table of Contents
 - [Prerequisites](#Prerequisites)
@@ -24,7 +24,7 @@ Now a days businesses also use chatbots to increase productivity and provide a b
 - [Integrate the Machine Learning Model with Watson Assistant](#Integrate-the-Machine-Learning-Model-with-Watson-Assistant)
 
 ## Prerequisites
-- [IBM Cloud Account](https://cloud.ibm.com/registration?utm_medium=Inpersondirected&utm_content=000039JL&utm_term=10010797&utm_id=Sep2021-unlockthepowerofmachinelearninginproductionforallskillsetsinahybridmulti-cloudworld-eventid-6106368814ed54d56fef33ef-global-devadvgrp-dubai-hybrid-conference-dubai)
+- [IBM Cloud Account](https://cloud.ibm.com/registration/trial?utm_medium=Inpersondirected&utm_content=000039JL&utm_term=10010797&utm_id=Oct2021-developerfestival-eventid-6141bf6be48d512fae38f1a2-global-devadvgrp--franchise-conference-online)
 - [Twilio Account](https://www.twilio.com/try-twilio)
 
 **Sign-up/Login to IBM Cloud**
@@ -372,22 +372,17 @@ In this tutorial, you were able to successfully integrate your Watson Assistant 
 
 ## Workshop Speakers
 
-- [Fawaz Siddiqi](https://linktr.ee/thefaz)
+- [Mridul Bhandari](https://www.linkedin.com/in/mridul-bhandari/)
 - [Anam Mahmood](https://www.linkedin.com/in/anam-mahmood-sheikh/)
+- [Fawaz Siddiqi](https://linktr.ee/thefaz)
 - [Khalil Faraj](https://www.linkedin.com/in/khalilfaraj/)
 
-## Masterclass Resources
+## Workshop Resources
 
-- Login/Sign Up for IBM Cloud: https://ibm.biz/artelligence2021
+- Login/Sign Up for IBM Cloud: https://ibm.biz/devfest2021
   
-- Hands-On Guide: https://ibm.biz/artelligence-handson
+- Hands-On Guide: http://ibm.biz/devfest2021-handson
 
-- Slides: https://ibm.biz/artelligence-slides
+- Slides: https://ibm.biz/devfest2021-slides
 
-- Workshop Replay: https://artelligenceforum.com 
-
-
-
-
-
-
+- Workshop Replay: https://www.crowdcast.io/e/developer-festival/
