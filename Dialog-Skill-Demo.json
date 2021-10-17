@@ -1,0 +1,1409 @@
+{
+  "intents": [
+    {
+      "intent": "Loan_question",
+      "examples": [
+        {
+          "text": "Am entitled to apply for a loan"
+        },
+        {
+          "text": "Am I eligible to request a loan"
+        },
+        {
+          "text": "I want to apply for a loan"
+        },
+        {
+          "text": "I want to check my eligibility for a loan"
+        }
+      ],
+      "description": "checking if user is elgibile for a loan"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "CheckingStatus",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "0_to_200",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "greater_200",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "less_0",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no_checking",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "CreditHistory",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "all_credits_paid_back",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "credits_paid_to_date",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "outstanding_credit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "prior_payments_delayed",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Elgibility_Result",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "EmploymentDuration",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1_to_4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "4_to_7",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "greater_7",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "less_1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "unemployed",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ExistingSavings",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "100_to_500",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "500_to_1000",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "greater_1000",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "less_100",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "unknown",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "housing",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "free housing",
+          "synonyms": [
+            "free"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "own house",
+          "synonyms": [
+            "own"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "rent house",
+          "synonyms": [
+            "rent"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rural",
+          "synonyms": [
+            "rural"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Urban",
+          "synonyms": [
+            "urban"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "InstallmentPlans",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bank",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "none",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "stores",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Job",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Management",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Skilled",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Unskilled",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "loan_purpose",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "appliances",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "business",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "education",
+          "synonyms": [
+            "college",
+            "school",
+            "tution",
+            "university"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "furniture",
+          "synonyms": [
+            "bedroom",
+            "couch",
+            "dining room",
+            "house furniture",
+            "living room"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "new car",
+          "synonyms": [
+            "car_new"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "other",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "radio_tv",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "repairs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "retraining",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "used car",
+          "synonyms": [
+            "car_used"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vacation",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "loan_types",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Car Loan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Debt Consolidation Loan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Personal Loan",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "OthersOnLoan",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "coapplicant",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "guarantor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no coapplicant",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "none",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "OwnsProperty",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "car_other",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "real estate",
+          "synonyms": [
+            "real_estate"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "savings insurance",
+          "synonyms": [
+            "savings_insurance"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "unknown",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-percentage",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.appdomain.cloud/api/v1/web/b67936b7-350b-4020-a14b-a0c9687ff99d/default/CP4D%20Demo.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_37_1626252692891",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you own any property?",
+            "options": [
+              {
+                "label": "savings_insurance",
+                "value": {
+                  "input": {
+                    "text": "savings_insurance"
+                  }
+                }
+              },
+              {
+                "label": "real_estate",
+                "value": {
+                  "input": {
+                    "text": "real_estate"
+                  }
+                }
+              },
+              {
+                "label": "unknown",
+                "value": {
+                  "input": {
+                    "text": "unknown"
+                  }
+                }
+              },
+              {
+                "label": "car_other",
+                "value": {
+                  "input": {
+                    "text": "car_other"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_3_1627992804772",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1627992804774",
+      "previous_sibling": "handler_7_1627992804774"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1627993064675",
+      "context": {
+        "housing": "@housing"
+      },
+      "conditions": "@housing",
+      "event_name": "input",
+      "dialog_node": "handler_10_1627993064677"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1626252876904",
+      "context": {
+        "CurrentResidenceDuration": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_1_1626252876905"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1627992877650",
+      "context": {
+        "Age": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_1_1627992877651"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you have an installment plan?",
+            "options": [
+              {
+                "label": "None",
+                "value": {
+                  "input": {
+                    "text": "none"
+                  }
+                }
+              },
+              {
+                "label": "Stores",
+                "value": {
+                  "input": {
+                    "text": "stores"
+                  }
+                }
+              },
+              {
+                "label": "Bank",
+                "value": {
+                  "input": {
+                    "text": "bank"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_2_1627992917313",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1627992917315",
+      "previous_sibling": "handler_9_1627992917315"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_38_1626252692892",
+      "context": {
+        "LoanDuration": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_39_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What is the amount of loan you want?"
+          ],
+          "selection_policy": "sequential"
+        },
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is the amount of duration you want for the loan? (In days)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_38_1626252692892",
+      "event_name": "focus",
+      "dialog_node": "handler_40_1626252692892",
+      "previous_sibling": "handler_39_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1627993124081",
+      "context": {
+        "ExistingCreditsCount": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_4_1627993124084"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Please select the type of your job.",
+            "options": [
+              {
+                "label": "Skilled",
+                "value": {
+                  "input": {
+                    "text": "skilled"
+                  }
+                }
+              },
+              {
+                "label": "Unskilled",
+                "value": {
+                  "input": {
+                    "text": "unskilled"
+                  }
+                }
+              },
+              {
+                "label": "Management",
+                "value": {
+                  "input": {
+                    "text": "management"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_7_1627993179953",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1627993179954",
+      "previous_sibling": "handler_7_1627993179954"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How long have you stayed at your current residence? (In Years)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_7_1626252876904",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1626252876905",
+      "previous_sibling": "handler_1_1626252876905"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1626252989976",
+      "context": {
+        "OthersOnLoan": "@OthersOnLoan"
+      },
+      "conditions": "@OthersOnLoan",
+      "event_name": "input",
+      "dialog_node": "handler_5_1626252989976"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_53_1626252692892",
+      "context": {
+        "LoanPurpose": "@loan_purpose"
+      },
+      "conditions": "@loan_purpose",
+      "event_name": "input",
+      "dialog_node": "handler_54_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "How many dependents do you have?"
+          ],
+          "selection_policy": "sequential"
+        },
+        "generic": [
+          {
+            "title": "What is the purpose of your loan?",
+            "options": [
+              {
+                "label": "other",
+                "value": {
+                  "input": {
+                    "text": "other"
+                  }
+                }
+              },
+              {
+                "label": "car_new",
+                "value": {
+                  "input": {
+                    "text": "car_new"
+                  }
+                }
+              },
+              {
+                "label": "furniture",
+                "value": {
+                  "input": {
+                    "text": "furniture"
+                  }
+                }
+              },
+              {
+                "label": "retraining",
+                "value": {
+                  "input": {
+                    "text": "retraining"
+                  }
+                }
+              },
+              {
+                "label": "education",
+                "value": {
+                  "input": {
+                    "text": "education"
+                  }
+                }
+              },
+              {
+                "label": "car_used",
+                "value": {
+                  "input": {
+                    "text": "car_used"
+                  }
+                }
+              },
+              {
+                "label": "appliances",
+                "value": {
+                  "input": {
+                    "text": "appliances"
+                  }
+                }
+              },
+              {
+                "label": "repairs",
+                "value": {
+                  "input": {
+                    "text": "repairs"
+                  }
+                }
+              },
+              {
+                "label": "radio_tv",
+                "value": {
+                  "input": {
+                    "text": "radio_tv"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_53_1626252692892",
+      "event_name": "focus",
+      "dialog_node": "handler_55_1626252692892",
+      "previous_sibling": "handler_54_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_59_1626252692892",
+      "context": {
+        "LoanAmount": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_60_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What is your Income?"
+          ],
+          "selection_policy": "sequential"
+        },
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is the loan amount you are applying for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_59_1626252692892",
+      "event_name": "focus",
+      "dialog_node": "handler_61_1626252692892",
+      "previous_sibling": "handler_60_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Any others on loan with you?",
+            "options": [
+              {
+                "label": "None",
+                "value": {
+                  "input": {
+                    "text": "none"
+                  }
+                }
+              },
+              {
+                "label": "Co-applicant",
+                "value": {
+                  "input": {
+                    "text": "Co-applicant"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_3_1626252989976",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1626252989976",
+      "previous_sibling": "handler_5_1626252989976"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "What is your status on your house?",
+            "options": [
+              {
+                "label": "Own",
+                "value": {
+                  "input": {
+                    "text": "own"
+                  }
+                }
+              },
+              {
+                "label": "free",
+                "value": {
+                  "input": {
+                    "text": "free"
+                  }
+                }
+              },
+              {
+                "label": "Rent",
+                "value": {
+                  "input": {
+                    "text": "rent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_9_1627993064675",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1627993064677",
+      "previous_sibling": "handler_10_1627993064677"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_62_1626252692892",
+      "context": {
+        "InstallmentPercent": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_63_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What is your coapplicant income?"
+          ],
+          "selection_policy": "sequential"
+        },
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is the installment percent? Please choose a value from 1 to 6."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_62_1626252692892",
+      "event_name": "focus",
+      "dialog_node": "handler_64_1626252692892",
+      "previous_sibling": "handler_63_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_65_1626252692892",
+      "context": {
+        "ExistingSaving": "@ExistingSavings"
+      },
+      "conditions": "@ExistingSavings",
+      "event_name": "input",
+      "dialog_node": "handler_66_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "How much savings do you have currently?",
+            "options": [
+              {
+                "label": "less_100",
+                "value": {
+                  "input": {
+                    "text": "less_100"
+                  }
+                }
+              },
+              {
+                "label": "100_to_500",
+                "value": {
+                  "input": {
+                    "text": "100_to_500"
+                  }
+                }
+              },
+              {
+                "label": "500_to_1000",
+                "value": {
+                  "input": {
+                    "text": "500_to_1000"
+                  }
+                }
+              },
+              {
+                "label": "greater_1000",
+                "value": {
+                  "input": {
+                    "text": "greater_1000"
+                  }
+                }
+              },
+              {
+                "label": "unknown",
+                "value": {
+                  "input": {
+                    "text": "unknown"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_65_1626252692892",
+      "event_name": "focus",
+      "dialog_node": "handler_67_1626252692892",
+      "previous_sibling": "handler_66_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "How long have you been employed? (In Years)",
+            "options": [
+              {
+                "label": "less_1",
+                "value": {
+                  "input": {
+                    "text": "less_1"
+                  }
+                }
+              },
+              {
+                "label": "1_to_4",
+                "value": {
+                  "input": {
+                    "text": "1_to_4"
+                  }
+                }
+              },
+              {
+                "label": "4_to_7",
+                "value": {
+                  "input": {
+                    "text": "4_to_7"
+                  }
+                }
+              },
+              {
+                "label": "greater_7",
+                "value": {
+                  "input": {
+                    "text": "greater_7"
+                  }
+                }
+              },
+              {
+                "label": "unemployed",
+                "value": {
+                  "input": {
+                    "text": "unemployed"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_8_1626252762720",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1626252762721",
+      "previous_sibling": "handler_8_1626252762721"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1627992804772",
+      "context": {
+        "OwnsProperty": "@OwnsProperty"
+      },
+      "conditions": "@OwnsProperty",
+      "event_name": "input",
+      "dialog_node": "handler_7_1627992804774"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1627993179953",
+      "context": {
+        "Job": "@Job"
+      },
+      "conditions": "@Job",
+      "event_name": "input",
+      "dialog_node": "handler_7_1627993179954"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1626252762720",
+      "context": {
+        "EmploymentDuration": "@EmploymentDuration"
+      },
+      "conditions": "@EmploymentDuration",
+      "event_name": "input",
+      "dialog_node": "handler_8_1626252762721"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is your age?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_2_1627992877650",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1627992877651",
+      "previous_sibling": "handler_1_1627992877651"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please enter a value of your existing credits count"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1627993124081",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1627993124084",
+      "previous_sibling": "handler_4_1627993124084"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1627992917313",
+      "context": {
+        "InstallmentPlans": "@InstallmentPlans"
+      },
+      "conditions": "@InstallmentPlans",
+      "event_name": "input",
+      "dialog_node": "handler_9_1627992917315"
+    },
+    {
+      "type": "frame",
+      "title": "Loan Eligibility",
+      "output": {},
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "Age": "$Age",
+            "Job": "$Job",
+            "Housing": "$Housing",
+            "LoanAmount": "$LoanAmount",
+            "LoanPurpose": "$LoanPurpose",
+            "LoanDuration": "$LoanDuration",
+            "OthersOnLoan": "$OthersOnLoan",
+            "OwnsProperty": "$OwnsProperty",
+            "ExistingSavings": "$ExistingSavings",
+            "InstallmentPlans": "$InstallmentPlans",
+            "EmploymentDuration": "$EmploymentDuration",
+            "InstallmentPercent": "$InstallmentPercent",
+            "ExistingCreditsCount": "$ExistingCreditsCount",
+            "CurrentResidenceDuration": "$CurrentResidenceDuration"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Loan_question",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_37_1626252692891",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_1.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_37_1626252692891",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_71_1626252692892"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry, something seems to have went wrong, please try again."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_37_1626252692891",
+      "conditions": "anything_else",
+      "dialog_node": "response_72_1626252692892",
+      "previous_sibling": "response_71_1626252692892"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$Age",
+      "dialog_node": "slot_2_1627992877650",
+      "previous_sibling": "slot_3_1627992804772"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$InstallmentPlans",
+      "dialog_node": "slot_2_1627992917313",
+      "previous_sibling": "slot_2_1627992877650"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$OthersOnLoan",
+      "dialog_node": "slot_3_1626252989976",
+      "previous_sibling": "slot_7_1626252876904"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$OwnsProperty",
+      "dialog_node": "slot_3_1627992804772",
+      "previous_sibling": "slot_3_1626252989976"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$LoanDuration",
+      "dialog_node": "slot_38_1626252692892",
+      "previous_sibling": "response_72_1626252692892"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$LoanPurpose",
+      "dialog_node": "slot_53_1626252692892",
+      "previous_sibling": "slot_38_1626252692892"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$LoanAmount",
+      "dialog_node": "slot_59_1626252692892",
+      "previous_sibling": "slot_53_1626252692892"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$ExistingCreditsCount",
+      "dialog_node": "slot_6_1627993124081",
+      "previous_sibling": "slot_9_1627993064675"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$InstallmentPercent",
+      "dialog_node": "slot_62_1626252692892",
+      "previous_sibling": "slot_59_1626252692892"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$ExistingSaving",
+      "dialog_node": "slot_65_1626252692892",
+      "previous_sibling": "slot_62_1626252692892"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$CurrentResidenceDuration",
+      "dialog_node": "slot_7_1626252876904",
+      "previous_sibling": "slot_8_1626252762720"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$Job",
+      "dialog_node": "slot_7_1627993179953",
+      "previous_sibling": "slot_6_1627993124081"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$EmploymentDuration",
+      "dialog_node": "slot_8_1626252762720",
+      "previous_sibling": "slot_65_1626252692892"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$housing",
+      "dialog_node": "slot_9_1627993064675",
+      "previous_sibling": "slot_2_1627992917313"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, I'm Alex! Your Loan Application companion."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 3000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "You can check for loan eligibility, recommended loan, and any information you would like to ask about our loans."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "Graduate"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}
