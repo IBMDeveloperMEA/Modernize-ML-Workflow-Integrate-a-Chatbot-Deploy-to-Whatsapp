@@ -372,7 +372,7 @@ In this tutorial, you were able to successfully integrate your Watson Assistant 
 
 ## Workshop Speakers
 
-- [Mridul Bhandari](https://www.linkedin.com/in/mridul-bhandari/)
+- [Mridul Bhandari](https://linktr.ee/mridulrb)
 - [Anam Mahmood](https://www.linkedin.com/in/anam-mahmood-sheikh/)
 - [Fawaz Siddiqi](https://linktr.ee/thefaz)
 - [Khalil Faraj](https://www.linkedin.com/in/khalilfaraj/)
@@ -386,3 +386,11 @@ In this tutorial, you were able to successfully integrate your Watson Assistant 
 - Slides: https://ibm.biz/devfest2021-slides
 
 - Workshop Replay: https://www.crowdcast.io/e/developer-festival/
+
+## Read More
+
+- Get Started with Watson Assistant: https://developer.ibm.com/learningpaths/get-started-watson-assistant/
+
+- Update your chatbot on WhatsApp with IBM Watson Assistant: https://developer.ibm.com/tutorials/integrating-ibm-watson-assistant-with-whatsapp/
+
+- Integración de IBM Watson Assistant con WhatsApp: https://developer.ibm.com/es/tutorials/integrating-ibm-watson-assistant-with-whatsapp/
