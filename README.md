@@ -338,7 +338,7 @@ In this step, we will be focusing on the integrating Watson Assistant with Whats
 
 ![2](https://user-images.githubusercontent.com/12492961/129473017-43185803-26c4-420d-be9d-237c6759394d.png)
 
-3. Now here we will need to set the Account SID and Auth token that we can get from Twilio. Go to your Twilio account (if you don't an account, you can create one [here](https://www.twilio.com/try-twilio)) and copy your Account SID and Auth token that are in the home dashboard. (Click on Show to reveal the token). 
+3. Now here we will need to set the Account SID and Auth token that we can get from Twilio. Go to your Twilio account (if you don't an account, you can create one [here](https://www.twilio.com/referral/jO1067) and copy your Account SID and Auth token that are in the home dashboard. (Click on Show to reveal the token). 
 
 ![3](https://user-images.githubusercontent.com/12492961/129473038-7c4f0aa7-40a5-4fca-84c2-a5ea5eaf830e.png)
 
