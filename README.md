@@ -16,6 +16,12 @@ Now a days businesses also use chatbots to increase productivity and provide a b
 
 - Workshop Replay: https://www.crowdcast.io/e/developer-festival/
 
+- [Get Started with Watson Assistant](https://developer.ibm.com/learningpaths/get-started-watson-assistant/)
+
+- [Update your chatbot on WhatsApp with IBM Watson Assistant](https://developer.ibm.com/tutorials/integrating-ibm-watson-assistant-with-whatsapp/)
+
+- [Integración de IBM Watson Assistant con WhatsApp](https://developer.ibm.com/es/tutorials/integrating-ibm-watson-assistant-with-whatsapp/)
+
 ## Table of Contents
 - [Prerequisites](#Prerequisites)
 - [Architecture Diagram](#Architecture-Diagram)
@@ -387,10 +393,9 @@ In this tutorial, you were able to successfully integrate your Watson Assistant 
 
 - Workshop Replay: https://www.crowdcast.io/e/developer-festival/
 
-## Read More
+- [Get Started with Watson Assistant](https://developer.ibm.com/learningpaths/get-started-watson-assistant/)
 
-- Get Started with Watson Assistant: https://developer.ibm.com/learningpaths/get-started-watson-assistant/
+- [Update your chatbot on WhatsApp with IBM Watson Assistant](https://developer.ibm.com/tutorials/integrating-ibm-watson-assistant-with-whatsapp/)
 
-- Update your chatbot on WhatsApp with IBM Watson Assistant: https://developer.ibm.com/tutorials/integrating-ibm-watson-assistant-with-whatsapp/
+- [Integración de IBM Watson Assistant con WhatsApp](https://developer.ibm.com/es/tutorials/integrating-ibm-watson-assistant-with-whatsapp/)
 
-- Integración de IBM Watson Assistant con WhatsApp: https://developer.ibm.com/es/tutorials/integrating-ibm-watson-assistant-with-whatsapp/
